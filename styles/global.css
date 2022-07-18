@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  /* font-weight: 100 900; */
+  font-display: optional;
+}
+
+* {
+  /* cursor: none; */
+}

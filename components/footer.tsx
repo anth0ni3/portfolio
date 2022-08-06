@@ -11,8 +11,10 @@ export const Footer = () => {
       <nav>
         <ul className="flex flex-wrap justify-center gap-4 sm:gap-8">
           {constants.links.external.map(({ name, link }) => (
-            <li key={name}>
-              <Link href={link}>{name}</Link>
+            <li key={name} data-cursor-stick={'#link' + name} data-cursor="-exclusion -opaque -md">
+              <Link href={link} id={'link' + name}>
+                {name}
+              </Link>
             </li>
           ))}
         </ul>

@@ -1,3 +1,5 @@
+import gsap from 'gsap'
+
 import { ThemeToggle } from '@/components'
 import { constants } from '@/config'
 import { Link } from '@/elements'

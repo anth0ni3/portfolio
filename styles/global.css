@@ -7,4 +7,11 @@
 
 * {
   /* cursor: none; */
+  /* transition: all 0.1s ease-in; */
+}
+
+html,
+body,
+#__next {
+  height: 100% !important;
 }
